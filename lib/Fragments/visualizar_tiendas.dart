@@ -27,7 +27,6 @@ class _visualizar_tiendasState extends State<visualizar_tiendas> {
               Tab(text: "Mes",),
               Tab(text: "Trimeste",),
               Tab(text: "Año",)
-
             ],
           ),
         ),

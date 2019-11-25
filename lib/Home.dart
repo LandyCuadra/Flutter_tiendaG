@@ -139,7 +139,7 @@ class _HomeState extends State<Home> {
 
     if(payload == "0" ){
       var esactual = false;
-      var ruta_home = "/visualizar_cierre";
+      var ruta_home = "/home";
       Navigator.of(context).popUntil((route){
         if(route.settings.name == ruta_home){
           esactual = true;
